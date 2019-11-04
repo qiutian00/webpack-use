@@ -4,6 +4,7 @@
   "description": "learn the use of  webpack",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --entry ./src/main.js --output-filename ./src/dist/build.js",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +14,16 @@
   "author": "qiutian",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "jquery": "^3.4.1",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }

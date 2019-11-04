@@ -8,6 +8,7 @@ module.exports = {
     path: __dirname + "/src/dist",
     filename: "build.js"
   },
+  mode: "development",
   // 需要依赖的插件或者转载器
   module: {
     // 之前配置
@@ -29,7 +30,9 @@ module.exports = {
             }
           }
         ]
-      }
+      },
+
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
   }
 };

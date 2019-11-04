@@ -1,1 +1,1 @@
-module.exports = "hello, this  webpack use haha";
+module.exports = "hello, this  webpack use haha  localhost";
