@@ -1,5 +1,7 @@
 body {
   background-color: chocolate;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/270669/pexels-photo-270669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 section {
@@ -14,6 +16,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: #eee;
 }
 
 div.container {
