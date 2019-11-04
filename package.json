@@ -10,5 +10,12 @@
     "webpack"
   ],
   "author": "qiutian",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "jquery": "^3.4.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
