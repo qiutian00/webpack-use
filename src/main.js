@@ -1,5 +1,6 @@
 // require("!style-loader!css-loader!./main.css");
 require("./main.css");
+require("./less.less");
 let $ = require("jquery");
 
 let testArrayLet = ["a", "test"];
